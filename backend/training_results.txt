@@ -1,0 +1,23 @@
+MODEL TRAINING RESULTS
+================================================================================
+
+
+Naive Bayes:
+  Train Accuracy: 95.84%
+  Test Accuracy:  94.47%
+
+Logistic Regression:
+  Train Accuracy: 97.73%
+  Test Accuracy:  97.99%
+
+Random Forest:
+  Train Accuracy: 100.00%
+  Test Accuracy:  99.50%
+
+Linear SVM:
+  Train Accuracy: 100.00%
+  Test Accuracy:  98.49%
+
+
+Best Model: Random Forest
+Test Accuracy: 99.50%

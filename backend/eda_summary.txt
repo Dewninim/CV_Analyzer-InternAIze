@@ -1,0 +1,151 @@
+EDA SUMMARY
+================================================================================
+
+Total Records: 1105
+Unique Categories: 144
+
+Category Distribution:
+  Java Developer: 84
+  Testing: 70
+  DevOps Engineer: 59
+  Python Developer: 51
+  Web Designing: 45
+  HR: 44
+  Hadoop: 42
+  Mechanical Engineer: 41
+  Operations Manager: 41
+  ETL Developer: 40
+  Sales: 40
+  Blockchain: 40
+  Data Science: 40
+  Arts: 36
+  Database: 33
+  Health and fitness: 30
+  PMO: 30
+  Electrical Engineering: 30
+  Business Analyst: 29
+  DotNet Developer: 28
+  Automation Testing: 26
+  Network Security Engineer: 25
+  Civil Engineer: 25
+  SAP Developer: 24
+  Advocate: 20
+  Data Scientist: 4
+  Software Engineer: 4
+  Web Developer: 4
+  Junior ML Engineer: 2
+  Junior Data Analyst: 2
+  Junior Software Engineer: 2
+  Junior Web Developer: 2
+  Clinical Research Assistant: 1
+  Junior Biotech Research Associate: 1
+  Nursing Assistant: 1
+  Junior Physical Therapist: 1
+  Junior Pharmacist: 1
+  Medical Lab Assistant: 1
+  Junior Nurse: 1
+  Junior Veterinary Assistant: 1
+  Farm Assistant: 1
+  Junior Agronomist: 1
+  Agricultural Technician : 1
+  Junior Video Editor: 1
+  Junior Mechanical Engineer: 1
+  Junior Electrical Engineer: 1
+  Commis Chef: 1
+  Assistant Chef: 1
+  Junior Project Coordinator: 1
+  Music Production Assistant: 1
+  Junior Sound Technician: 1
+  Music Teacher Assistant: 1
+  Junior Product Manager: 1
+  Junior Sales Executive: 1
+  Junior Marketing Executive: 1
+  Junior HR Assistant: 1
+  AI Research Assistant: 1
+  Data Science Intern: 1
+  Machine Learning Intern: 1
+  Junior Digital Marketer: 1
+  Junior Accountant: 1
+  Junior Financial Analyst: 1
+  Computer Vision Junior Engineer: 1
+  NLP Engineer Junior: 1
+  Junior Business Analyst: 1
+  Junior UI/UX Designer: 1
+  Junior Graphic Designer: 1
+  Junior Content Writer: 1
+  Junior Mobile App Developer: 1
+  Junior DevOps Engineer: 1
+  Librarian: 1
+  Corporate Trainer: 1
+  University Lecturer: 1
+  School Teacher: 1
+  Life Coach: 1
+  Psychologist: 1
+  Speech Therapist: 1
+  Junior Architect: 1
+  Junior Civil Engineer: 1
+  Junior Environmental Officer: 1
+  Yoga Instructor: 1
+  Nutritionist: 1
+  Occupational Therapist: 1
+  Fitness Trainer: 1
+  Flight Attendant: 1
+  Aircraft Maintenance Engineer: 1
+  Air Traffic Controller: 1
+  Pilot: 1
+  Property Manager: 1
+  Quantity Surveyor: 1
+  Construction Manager: 1
+  Supply Chain Analyst: 1
+  Biotechnology Researcher: 1
+  Travel Consultant: 1
+  Hotel Manager: 1
+  Event Manager: 1
+  Clinical Research Coordinator: 1
+  Bioinformatics Specialist : 1
+  Research Scientist: 1
+  Technical Writer: 1
+  Solutions Architect: 1
+  Information Security Manager: 1
+  System Administrator: 1
+  Frontend Developer: 1
+  Backend Developer: 1
+  Social Media Manager: 1
+  SEO Specialist: 1
+  Marketing Manager: 1
+  Sales Manager: 1
+  Urban Planner: 1
+  Microbiologist: 1
+  Veterinarian: 1
+  IoT Engineer: 1
+  Data Engineer: 1
+  Robotics Engineer: 1
+  Blockchain Developer: 1
+  Game Developer: 1
+  Fashion Designer: 1
+  Interior Designer: 1
+  3D Animator: 1
+  Biomedical Engineer: 1
+  Chemical Engineer: 1
+  Electrical Engineer : 1
+  Recruitment Specialist: 1
+  HR Manager: 1
+  Video Editor: 1
+  Sound Engineer: 1
+  Nurse: 1
+  QA Engineer: 1
+  Financial Analyst: 1
+  Accountant: 1
+  Database Administrator: 1
+  Product Manager: 1
+  Network Engineer: 1
+  Content Writer: 1
+  Digital Marketing Specialist: 1
+  Cybersecurity Analyst: 1
+  UI/UX Designer: 1
+  Graphic Designer: 1
+  Cloud Engineer: 1
+  Full Stack Developer: 1
+  AI Engineer: 1
+  ML Engineer: 1
+  Mobile App Developer: 1

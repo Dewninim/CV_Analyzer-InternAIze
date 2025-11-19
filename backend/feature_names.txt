@@ -1,0 +1,993 @@
+01
+10
+11
+11g
+12
+12 month
+15
+16
+20
+2000
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+24
+24 month
+28
+30
+31
+31 month
+400
+48
+48 month
+72
+ability
+access
+according
+account
+achieve
+achieving
+action
+active
+actively
+activity
+ad
+admin
+administration
+administrator
+advance
+agile
+aim
+air
+ajax
+algorithm
+amravati
+analysis
+analyst
+analytical
+analytics
+analyze
+analyzing
+android
+angular
+ant maven
+apache
+api
+application
+applying
+appropriate
+architect
+architecture
+area
+art
+asp
+asp net
+assembly
+assist
+assistant
+attending
+audit
+august
+auto
+autocad
+automated
+automation
+availability
+available
+aws
+azure
+bachelor
+bachelor engineering
+backend
+backup
+bank
+banking
+base
+based
+based application
+basic
+basis
+best
+bi
+big
+billing
+blockchain
+bny
+bny mellon
+bo
+board
+bond
+bootstrap
+bootstrap php
+branch
+british
+budget
+bug
+build
+build deployment
+building
+business
+business analyst
+business requirement
+cabinet
+cable
+calculation
+capability
+capacity
+capital
+card
+case
+cash
+category
+cause
+center
+centre
+certificate
+certification
+certified
+chain
+change
+channel
+check
+checking
+cisco
+cisco router
+civil
+civil engineer
+class
+client
+closely
+cloud
+cluster
+code
+college
+college engineering
+com
+comment
+commerce
+commercial
+communicating
+communication
+communication skill
+company company
+company description
+company tata
+competency
+complaint
+complete
+completed
+completed internal
+completion
+complex
+compliance
+component
+computer
+computer engineering
+computer science
+concept
+conduct
+conducted
+conducting
+configuration
+configuring
+construction
+consultancy
+consultancy service
+consultant
+contact
+continuous
+contract
+contribution
+control
+control panel
+controller
+coordinate
+coordinating
+core
+core java
+corporate
+corporation
+correct
+cost
+council
+country
+course
+create
+created
+creating
+creation
+credit
+cricket
+critical
+crm
+cross
+cs
+cs bootstrap
+css3
+custom
+customer
+cycle
+daily
+dashboard
+data
+data science
+data warehouse
+database
+database administrator
+database exprience
+database sql
+database used
+date
+day
+db
+dc
+debugging
+decision
+deep
+defect
+defined
+deliverable
+delivered
+delivery
+department
+deployed
+deployment
+description company
+description project
+description pune
+description responsibility
+description role
+description worked
+description working
+design
+design develop
+design development
+designation
+designed
+designed developed
+designer
+designing
+detailed
+dev
+develop
+developed
+developer
+developer skill
+developer synopsis
+developing
+development
+development activity
+development team
+device
+devops
+devops engineer
+diagram
+different
+diploma
+direct
+directly
+discus
+distribution
+django
+document
+documentation
+domain
+dot
+dot net
+dr
+drawing
+drive
+driven
+duration
+duration month
+duty
+dynamic
+eclipse
+ecosystem
+education january
+education june
+effective
+efficiency
+effort
+electrical
+electrical engineering
+electronics
+email
+employee
+end
+end end
+engineer
+engineer skill
+engineering
+english
+enhancement
+enquiry
+ensure
+ensuring
+enterprise
+entire
+entity
+environment
+environment window
+equipment
+erp
+error
+estimation
+ethereum
+etl
+etl developer
+event
+excel
+excellent
+execute
+executing
+execution
+executive
+existing
+experience
+expertise
+export
+exprience
+exprience 12
+exprience 24
+exprience 31
+exprience 48
+exprience 72
+exprience month
+exprience monthscompany
+exprience year
+external
+extract
+facility
+fat
+feature
+feedback
+field
+file
+finance
+financial
+financial service
+fine
+firewall
+fitness
+flat
+flow
+follow
+following
+form
+format
+foundation
+frame
+framework
+freight
+ftp
+function
+functional
+future
+gathering
+ge
+generate
+generated
+generating
+generation
+getting
+git
+given
+global
+goal
+good
+good knowledge
+government
+graphic
+group
+gym
+ha
+hadoop
+hana
+hand
+handled
+handling
+hardware
+having
+hbase
+hdfs
+health
+healthcare
+help
+helping
+hibernate
+high
+high school
+higher
+hive
+holder
+honeywell
+honeywell korea
+hotel
+hpm
+hr
+hsc
+html
+html cs
+html5
+html5 css3
+ibm
+identify
+identifying
+image
+implement
+implementation
+implemented
+implementing
+import
+improve
+improvement
+incident
+included
+includes
+including
+india
+india pvt
+individual
+industrial
+industry
+informatica
+informatica power
+information
+information technology
+infrastructure
+input
+inspection
+installation
+institute
+insurance
+integrated
+integration
+interacting
+interaction
+interface
+internal
+international
+internet
+inventory
+investment
+invoice
+involved
+iso
+issue
+j2ee
+jan
+january
+january 2010
+january 2011
+january 2012
+january 2013
+january 2014
+january 2016
+january 2017
+java
+java developer
+java exprience
+javascript
+javascript exprience
+javascript jquery
+jenkins
+jira
+job
+job profile
+job responsibility
+jquery
+jquery ajax
+jr
+json
+jsp
+july
+june
+keeping
+key
+knowledge
+korea
+language
+layer
+layout
+le
+lead
+leader
+leadership
+leading
+learn
+learning
+level
+life
+life cycle
+like
+limited
+limited description
+line
+linux
+list
+load
+loading
+loan
+local
+location
+log
+logic
+logistics
+m3
+machine
+machine learning
+maharashtra
+maharashtra maharashtra
+maharashtra mumbai
+maharashtra pune
+maharashtra state
+maharashtra university
+mahindra
+main
+maintain
+maintained
+maintaining
+maintenance
+major
+make
+make sure
+making
+manage
+managed
+management
+management exprience
+manager
+managing
+manual
+manufacturing
+map
+mapping
+mapreduce
+market
+marketing
+marshalling
+master
+material
+matrix
+maven
+mechanical
+mechanical engineering
+medium
+meeting
+mellon
+member
+mentioned
+merchant
+methodology
+metric
+mi
+microsoft
+migration
+model
+modern
+module
+mongodb
+monitor
+monitored
+monitoring
+month
+month database
+month exprience
+month java
+month javascript
+month python
+month sql
+monthly
+monthscompany
+monthscompany company
+motor
+movex
+multi
+multiple
+mumbai
+mumbai maharashtra
+mumbai university
+mvc
+mysql
+nagpur
+nagpur maharashtra
+nashik
+nashik maharashtra
+national
+necessary
+need
+negotiation
+nendrasys
+nendrasys technology
+net
+network
+network security
+networking
+new
+node
+nov
+number
+object
+objective
+offer
+office
+online
+onsite
+operating
+operating window
+operation
+operation manager
+operational
+opportunity
+oracle
+oracle 11g
+oracle database
+order
+organization
+overall
+overseeing
+package
+page
+panel
+paper
+participate
+participated
+partner
+payment
+people
+perform
+performance
+performed
+personal
+photoshop
+php
+php jquery
+phule
+phule pune
+pig
+pl
+pl sql
+place
+plan
+planning
+plant
+platform
+plc
+pm
+pmo
+po
+point
+policy
+polytechnic
+portal
+position
+position software
+positive
+post
+potential
+power
+powerpoint
+pradesh
+pre
+prepaid
+preparation
+prepare
+preparing
+present
+presentation
+price
+private
+private limited
+problem
+problem solving
+procedure
+process
+processed
+processing
+procurement
+product
+production
+professional
+profile
+program
+programme
+programming
+programming language
+progress
+project
+project description
+project management
+project manager
+project project
+project review
+project title
+proper
+properly
+proposal
+provide
+provided
+provider
+provides
+providing
+public
+pune
+pune maharashtra
+pune university
+purchase
+pvt
+pvt description
+pvt skill
+python
+python developer
+python exprience
+qa
+qatar
+qc
+qtp
+quality
+quality check
+query
+quick
+quotation
+r2
+raised
+range
+rate
+real
+reconciliation
+record
+reduce
+region
+regression
+regular
+related
+related issue
+relationship
+release
+relevant
+replication
+report
+reporting
+repository
+request
+required
+requirement
+requirement document
+requirement gathering
+research
+resistance
+resolve
+resolving
+resource
+responsibility
+responsibility designed
+responsibility project
+responsible
+rest
+result
+revenue
+review
+review meeting
+reviewing
+right
+risk
+role
+role responsibility
+router
+routing
+rule
+running
+sale
+sale manager
+sale team
+sap
+sap bo
+savitribai
+savitribai phule
+scenario
+schedule
+scheduling
+schematic
+school
+science
+scope
+script
+scripting
+secondary
+sector
+security
+selenium
+self
+senior
+senior management
+sent
+server
+service
+service description
+servlet
+session
+set
+setting
+setup
+shared
+shell
+shell script
+shell scripting
+shipment
+shipping
+site
+size
+size position
+skill company
+sla
+smart
+smooth
+software
+software developer
+software development
+software testing
+solution
+solving
+source
+spark
+specification
+spring
+spring hibernate
+sql
+sql exprience
+sql server
+sql team
+sqoop
+sr
+ssc
+staff
+stake
+stake holder
+stakeholder
+standard
+state
+state board
+station
+status
+stock
+store
+strategic
+strategy
+strength
+strong
+structure
+student
+studio
+sub
+successful
+successfully
+successfully completed
+supplier
+supply
+supply chain
+support
+supporting
+sure
+switch
+synopsis
+table
+tableau
+taking
+talend
+target
+task
+tata
+tata consultancy
+team
+team lead
+team member
+team size
+tech
+technical
+technical skill
+technique
+technology
+technology description
+technology pvt
+technology used
+telecommunication
+term
+test
+test case
+test plan
+testing
+testing exprience
+text
+thai
+ticket
+till
+till date
+time
+timely
+timely delivery
+title
+tool
+track
+tracking
+trade
+training
+training completed
+transaction
+transformation
+transformer
+transition
+troubleshoot
+troubleshooting
+trust
+type
+uat
+ui
+uk
+understand
+understanding
+unit
+unit testing
+united
+universe
+university
+university january
+unix
+update
+upgrade
+usa
+usage
+use
+used
+used html
+used sql
+user
+using
+utility
+utilization
+validate
+validation
+various
+vendor
+version
+view
+visit
+vista
+visual
+visual studio
+warehouse
+way
+web
+web application
+web based
+web technology
+website
+weekly
+window
+window xp
+wipro
+wiring
+word
+work
+worked
+working
+workshop
+world
+writing
+wrote
+xp
+year
+year experience
+year month
+year monthscompany

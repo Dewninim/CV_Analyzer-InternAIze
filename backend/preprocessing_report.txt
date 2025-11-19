@@ -1,0 +1,42 @@
+PREPROCESSING DETAILED REPORT
+================================================================================
+
+Original records:        1105
+Final records:           993
+Retention rate:          89.9%
+Total categories:        32
+
+Full Category Distribution:
+--------------------------------------------------------------------------------
+  1. Java Developer                                   84 samples
+  2. Testing                                          70 samples
+  3. DevOps Engineer                                  59 samples
+  4. Python Developer                                 51 samples
+  5. Web Designing                                    45 samples
+  6. HR                                               44 samples
+  7. Hadoop                                           42 samples
+  8. Mechanical Engineer                              41 samples
+  9. Operations Manager                               41 samples
+ 10. ETL Developer                                    40 samples
+ 11. Sales                                            40 samples
+ 12. Blockchain                                       40 samples
+ 13. Data Science                                     40 samples
+ 14. Arts                                             36 samples
+ 15. Database                                         33 samples
+ 16. Health and fitness                               30 samples
+ 17. PMO                                              30 samples
+ 18. Electrical Engineering                           30 samples
+ 19. Business Analyst                                 29 samples
+ 20. DotNet Developer                                 28 samples
+ 21. Automation Testing                               26 samples
+ 22. Network Security Engineer                        25 samples
+ 23. Civil Engineer                                   25 samples
+ 24. SAP Developer                                    24 samples
+ 25. Advocate                                         20 samples
+ 26. Software Engineer                                 4 samples
+ 27. Web Developer                                     4 samples
+ 28. Data Scientist                                    4 samples
+ 29. Junior Web Developer                              2 samples
+ 30. Junior Data Analyst                               2 samples
+ 31. Junior ML Engineer                                2 samples
+ 32. Junior Software Engineer                          2 samples
