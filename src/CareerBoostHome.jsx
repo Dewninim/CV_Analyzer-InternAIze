@@ -1,29 +1,54 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Briefcase, ClipboardList, FileText, Search } from "lucide-react";
+import {
+  Briefcase,
+  ClipboardList,
+  FileText,
+  Search,
+  Eye,
+  EyeOff,
+} from "lucide-react";
 import "@/components/ChatBot.css";
 import ChatBot from "@/components/ChatBot.jsx";
 
 export default function HomePage() {
+  const [user, setUser] = useState(null); // Track login status
+
+  // Modal states
   const [showSignIn, setShowSignIn] = useState(false);
   const [showSignUp, setShowSignUp] = useState(false);
+
+  // Form states
   const [signInEmail, setSignInEmail] = useState("");
   const [signInPassword, setSignInPassword] = useState("");
   const [signUpName, setSignUpName] = useState("");
   const [signUpEmail, setSignUpEmail] = useState("");
   const [signUpPassword, setSignUpPassword] = useState("");
   const [signUpConfirm, setSignUpConfirm] = useState("");
-  const navigate = useNavigate();
 
+  // Password visibility toggles
+  const [showSignInPassword, setShowSignInPassword] = useState(false);
+  const [showSignUpPassword, setShowSignUpPassword] = useState(false);
+  const [showSignUpConfirm, setShowSignUpConfirm] = useState(false);
+
+  const navigate = useNavigate();
   const backendURL = "http://localhost:5000";
 
-  // Scroll Handler for same-page navigation
+  // Scroll Handler
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
+    if (section) section.scrollIntoView({ behavior: "smooth" });
+  };
+
+  // Reset all form states
+  const resetForms = () => {
+    setSignInEmail("");
+    setSignInPassword("");
+    setSignUpName("");
+    setSignUpEmail("");
+    setSignUpPassword("");
+    setSignUpConfirm("");
   };
 
   // Sign-Up Handler
@@ -37,19 +62,13 @@ export default function HomePage() {
       const res = await fetch(`${backendURL}/signup`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          email: signUpEmail,
-          password: signUpPassword,
-        }),
+        body: JSON.stringify({ email: signUpEmail, password: signUpPassword }),
       });
       const data = await res.json();
       alert(data.message);
       if (res.status === 201) {
         setShowSignUp(false);
-        setSignUpEmail("");
-        setSignUpPassword("");
-        setSignUpConfirm("");
-        setSignUpName("");
+        resetForms();
       }
     } catch (err) {
       console.error(err);
@@ -64,18 +83,15 @@ export default function HomePage() {
       const res = await fetch(`${backendURL}/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          email: signInEmail,
-          password: signInPassword,
-        }),
+        body: JSON.stringify({ email: signInEmail, password: signInPassword }),
       });
       const data = await res.json();
       alert(data.message);
       if (res.status === 200) {
+        setUser({ email: signInEmail }); // Set logged-in user
         setShowSignIn(false);
-        setSignInEmail("");
-        setSignInPassword("");
-        // Navigate to dashboard or homepage
+        resetForms();
+        navigate("/"); // Stay on homepage
       }
     } catch (err) {
       console.error(err);
@@ -83,39 +99,71 @@ export default function HomePage() {
     }
   };
 
+  // Logout Handler
+  const handleLogout = () => {
+    setUser(null);
+    navigate("/");
+  };
+
   return (
     <div className="bg-white text-black font-sans w-full">
       {/* Header */}
-      <header className="flex flex-wrap justify-between items-center p-4 shadow-sm w-full">
-        <div className="text-xl font-bold">
-          <span className="text-black">Intern</span>
-          <span className="text-green-600">AIze</span>
+      <header className="flex justify-between items-center py-4 px-6 bg-white shadow-md rounded-xl">
+        <div className="flex items-center gap-2">
+          <img
+            src="/logo-icon (2).png"
+            alt="logo"
+            className="w-8 h-8 cursor-pointer"
+            onClick={() => navigate("/")}
+          />
+          <h1 className="text-xl font-bold">
+            Intern<span className="text-green-600">AIze</span>
+          </h1>
         </div>
-        <nav className="flex flex-wrap items-center space-x-4 mt-2 sm:mt-0">
-          <span
+        <nav className="flex gap-8 text-gray-700 font-medium">
+          <button
             onClick={() => scrollToSection("careerboost")}
-            className="text-gray-700 hover:text-black text-sm cursor-pointer"
+            className="hover:underline"
           >
             CareerBoost
-          </span>
-          <span
+          </button>
+          <button
             onClick={() => scrollToSection("about")}
-            className="text-gray-700 hover:text-black text-sm cursor-pointer"
+            className="hover:underline"
           >
             About
-          </span>
-          <span
-            className="text-gray-700 hover:text-black text-sm cursor-pointer"
-            onClick={() => setShowSignUp(true)}
-          >
-            Sign Up
-          </span>
-          <Button
-            className="bg-green-500 hover:bg-green-600 text-white text-sm px-4 py-2"
-            onClick={() => setShowSignIn(true)}
-          >
-            Login
-          </Button>
+          </button>
+          {!user ? (
+            <>
+              <button
+                onClick={() => setShowSignUp(true)}
+                className="hover:underline"
+              >
+                Sign Up
+              </button>
+              <Button
+                className="bg-green-500 hover:bg-green-600 text-white text-sm px-4 py-2"
+                onClick={() => setShowSignIn(true)}
+              >
+                Login
+              </Button>
+            </>
+          ) : (
+            <>
+              <Button
+                className="bg-red-500 hover:bg-red-600 text-white text-sm px-4 py-2"
+                onClick={handleLogout}
+              >
+                Logout
+              </Button>
+              <img
+                src="/profile.png"
+                alt="user"
+                className="w-10 h-10 rounded-full border cursor-pointer"
+                onClick={() => navigate("/profile")}
+              />
+            </>
+          )}
         </nav>
       </header>
 
@@ -140,12 +188,11 @@ export default function HomePage() {
             <p className="mb-6 text-sm sm:text-base max-w-xl">
               Unlock your potential with AI-powered insights. Our platform
               analyzes internship rejections and transforms uncertainty into
-              opportunity — helping you refine your skills, optimize your
-              applications, and land the internship you deserve.
+              opportunity.
             </p>
             <Button
               className="bg-white text-black hover:bg-gray-200 text-sm sm:text-base px-4 py-2"
-              onClick={() => navigate("/")}
+              onClick={() => navigate("/homepage")}
             >
               Get Ready for an Interview
             </Button>
@@ -272,19 +319,21 @@ export default function HomePage() {
           <div className="bg-white rounded-2xl shadow-xl p-6 w-full max-w-sm relative">
             <button
               className="absolute top-4 right-4 text-black text-xl"
-              onClick={() => setShowSignIn(false)}
+              onClick={() => {
+                setShowSignIn(false);
+                resetForms();
+              }}
+              aria-label="Close"
             >
               &times;
             </button>
-            <h2 className="text-lg font-semibold mb-4">
-              Sign in to your account
-            </h2>
+            <h2 className="text-lg font-semibold mb-4">Sign in to your account</h2>
             <form className="space-y-4" onSubmit={handleSignIn}>
               <div>
                 <label className="block text-sm mb-1">Email</label>
                 <input
                   type="email"
-                  className="w-full border rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+                  className="w-full border rounded-md px-3 py-2 text-sm"
                   value={signInEmail}
                   onChange={(e) => setSignInEmail(e.target.value)}
                   required
@@ -292,22 +341,22 @@ export default function HomePage() {
               </div>
               <div>
                 <label className="block text-sm mb-1">Password</label>
-                <input
-                  type="password"
-                  className="w-full border rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
-                  value={signInPassword}
-                  onChange={(e) => setSignInPassword(e.target.value)}
-                  required
-                />
-              </div>
-              <div className="flex items-center justify-between text-sm">
-                <label className="flex items-center space-x-2">
-                  <input type="checkbox" />
-                  <span>Remember me</span>
-                </label>
-                <a href="#" className="text-green-600 hover:underline">
-                  Forgot Password
-                </a>
+                <div className="relative">
+                  <input
+                    type={showSignInPassword ? "text" : "password"}
+                    className="w-full border rounded-md px-3 py-2 text-sm"
+                    value={signInPassword}
+                    onChange={(e) => setSignInPassword(e.target.value)}
+                    required
+                  />
+                  <button
+                    type="button"
+                    className="absolute inset-y-0 right-3 flex items-center text-gray-500"
+                    onClick={() => setShowSignInPassword(!showSignInPassword)}
+                  >
+                    {showSignInPassword ? <EyeOff size={16} /> : <Eye size={16} />}
+                  </button>
+                </div>
               </div>
               <button
                 type="submit"
@@ -326,7 +375,11 @@ export default function HomePage() {
           <div className="bg-white rounded-2xl shadow-xl p-6 w-full max-w-sm relative">
             <button
               className="absolute top-4 right-4 text-black text-xl"
-              onClick={() => setShowSignUp(false)}
+              onClick={() => {
+                setShowSignUp(false);
+                resetForms();
+              }}
+              aria-label="Close"
             >
               &times;
             </button>
@@ -336,7 +389,7 @@ export default function HomePage() {
                 <label className="block text-sm mb-1">Full Name</label>
                 <input
                   type="text"
-                  className="w-full border rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+                  className="w-full border rounded-md px-3 py-2 text-sm"
                   value={signUpName}
                   onChange={(e) => setSignUpName(e.target.value)}
                   required
@@ -346,7 +399,7 @@ export default function HomePage() {
                 <label className="block text-sm mb-1">Email</label>
                 <input
                   type="email"
-                  className="w-full border rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+                  className="w-full border rounded-md px-3 py-2 text-sm"
                   value={signUpEmail}
                   onChange={(e) => setSignUpEmail(e.target.value)}
                   required
@@ -354,23 +407,41 @@ export default function HomePage() {
               </div>
               <div>
                 <label className="block text-sm mb-1">Password</label>
-                <input
-                  type="password"
-                  className="w-full border rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
-                  value={signUpPassword}
-                  onChange={(e) => setSignUpPassword(e.target.value)}
-                  required
-                />
+                <div className="relative">
+                  <input
+                    type={showSignUpPassword ? "text" : "password"}
+                    className="w-full border rounded-md px-3 py-2 text-sm"
+                    value={signUpPassword}
+                    onChange={(e) => setSignUpPassword(e.target.value)}
+                    required
+                  />
+                  <button
+                    type="button"
+                    className="absolute inset-y-0 right-3 flex items-center text-gray-500"
+                    onClick={() => setShowSignUpPassword(!showSignUpPassword)}
+                  >
+                    {showSignUpPassword ? <EyeOff size={16} /> : <Eye size={16} />}
+                  </button>
+                </div>
               </div>
               <div>
                 <label className="block text-sm mb-1">Confirm Password</label>
-                <input
-                  type="password"
-                  className="w-full border rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
-                  value={signUpConfirm}
-                  onChange={(e) => setSignUpConfirm(e.target.value)}
-                  required
-                />
+                <div className="relative">
+                  <input
+                    type={showSignUpConfirm ? "text" : "password"}
+                    className="w-full border rounded-md px-3 py-2 text-sm"
+                    value={signUpConfirm}
+                    onChange={(e) => setSignUpConfirm(e.target.value)}
+                    required
+                  />
+                  <button
+                    type="button"
+                    className="absolute inset-y-0 right-3 flex items-center text-gray-500"
+                    onClick={() => setShowSignUpConfirm(!showSignUpConfirm)}
+                  >
+                    {showSignUpConfirm ? <EyeOff size={16} /> : <Eye size={16} />}
+                  </button>
+                </div>
               </div>
               <button
                 type="submit"

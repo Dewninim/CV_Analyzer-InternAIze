@@ -15,8 +15,11 @@ app = Flask(__name__)
 CORS(app)
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyBQyxYDc6klb1Qws-o-GkG0k0ZGtRiIrTE"
-genai.configure(api_key=GEMINI_API_KEY)
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
+if not GEMINI_API_KEY:
+    print("⚠️ WARNING: GEMINI_API_KEY not found in environment variables!")
+else:
+    genai.configure(api_key=GEMINI_API_KEY)
 
 # Configuration
 UPLOAD_FOLDER = 'uploads'

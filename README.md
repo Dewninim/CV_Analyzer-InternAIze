@@ -78,4 +78,3 @@ Deploy the /dist folder using:
 Vercel – Recommended for React
 Netlify
 GitHub Pages
->>>>>>> 10cbafe (Initial commit for Dewni branch)

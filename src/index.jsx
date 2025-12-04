@@ -4,7 +4,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CareerBoostHome from "./CareerBoostHome";
 import Profile from "./Profile";
 import UploadCV from "./UploadCV";
+import Homepage from "./Homepage";
 import "./index.css";
+import Quiz from "./Quiz";
+
 
 const rootElement = document.getElementById("root");
 
@@ -21,6 +24,9 @@ root.render(
         <Route path="/" element={<CareerBoostHome />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/upload" element={<UploadCV />} />
+        <Route path="/homepage" element={<Homepage />} />
+        <Route path="/quiz" element={<Quiz />} />
+
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
