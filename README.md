@@ -659,7 +659,7 @@ This is an academic project. For any queries, suggestions, or collaboration:
 
 For technical issues or questions:
 - **GitHub Issues:** https://github.com/Dewninim/CV_Analyzer-InternAIze/issues
-- **Email:** 22ug2-0568@sltc.ac.lk (Dewni - Lead Developer)
+
 
 ---
 
