@@ -1,6 +1,6 @@
 # CV_Analyzer-InternAIze - AI-Powered CV Analysis & Career Guidance Platform
 
-![InternAIze Logo](./public/logo-icon.png)
+![InternAIze Logo](./public/logo-icon(2).png)
 
 > **Empowering students and fresh graduates to overcome internship rejections through AI-powered CV analysis and personalized career guidance.**
 
