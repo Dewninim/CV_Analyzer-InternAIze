@@ -521,6 +521,8 @@ Content-Type: application/json
 }
 ```
 
+
+
 #### Upload & Analyze CV (Combined AI + ML)
 ```http
 POST http://localhost:5000/api/analyze-cv
@@ -624,6 +626,7 @@ This project is developed as part of academic coursework at SLTC Research Univer
 
 ---
 
+
 ## 🤝 Contributing
 
 This is an academic project. For any queries, suggestions, or collaboration:
@@ -632,6 +635,7 @@ This is an academic project. For any queries, suggestions, or collaboration:
 - Fork the repository and submit pull requests
 
 ---
+
 
 ## 🚀 Future Enhancements
 
@@ -646,6 +650,7 @@ This is an academic project. For any queries, suggestions, or collaboration:
 
 ---
 
+
 ## 🙏 Acknowledgments
 
 - **SLTC Research University** faculty for guidance and support
@@ -655,6 +660,7 @@ This is an academic project. For any queries, suggestions, or collaboration:
 
 ---
 
+
 ## 📞 Support
 
 For technical issues or questions:
@@ -663,11 +669,13 @@ For technical issues or questions:
 
 ---
 
+
 **Built with ❤️ by Team Devvengers**
 
 *Empowering the next generation of professionals, one CV at a time.*
 
 ---
+
 
 ## 🏆 Project Status
 
