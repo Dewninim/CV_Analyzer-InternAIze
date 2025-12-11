@@ -22,3 +22,4 @@ async function hashExistingPasswords() {
 }
 
 hashExistingPasswords();
+// passwords are hashed
