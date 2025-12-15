@@ -46,7 +46,6 @@ Students and fresh graduates often struggle to understand the reasons behind int
 **Current Gap:** No platform offers a data-driven, AI-powered solution to analyze internship rejections and guide applicants towards improvement.
 
 **Our Solution:** InternAIze bridges this gap with intelligent CV analysis, job matching, and personalized improvement recommendations.
-
 ---
 
 ## ✨ Key Features
@@ -591,7 +590,6 @@ Authorization: Bearer <jwt_token>
 - ✅ User authentication and profile management
 - ⏳ Cloud deployment with scalability
 - ⏳ Measurable improvement in user internship success rate
-
 ---
 
 ## 🔒 Security Features
@@ -623,7 +621,6 @@ Authorization: Bearer <jwt_token>
 This project is developed as part of academic coursework at SLTC Research University.
 
 **Copyright © 2025 Team Devvengers. All rights reserved.**
-
 ---
 
 
