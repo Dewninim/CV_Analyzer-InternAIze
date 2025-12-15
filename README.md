@@ -666,11 +666,10 @@ This is an academic project. For any queries, suggestions, or collaboration:
 For technical issues or questions:
 - **GitHub Issues:** https://github.com/Dewninim/CV_Analyzer-InternAIze/issues
 
-
 ---
 
 
-**Built with ❤️ by Team Devvengers**
+**Built by Team Devvengers**
 
 *Empowering the next generation of professionals, one CV at a time.*
 
